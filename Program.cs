@@ -11,9 +11,9 @@ namespace almeidaAPI
         
         static void Main(string[] args)
         {
-            //DEPOIS DE ESTABELECIMENTO PASSAR O ID DA LOJA 
-            var url = "http://www.donuz.co/api/v1/estabelecimento/35369";
-            var authToken = "a25fd9dd924553ff1104091c853bfda0";
+            //DEPOIS DE /ESTABELECIMENTO PASSAR O ID DA LOJA 
+            var url = "http://www.donuz.co/api/v1/estabelecimento/****";
+            var authToken = "******";
             var requisicaoWeb = WebRequest.CreateHttp(url);           
             requisicaoWeb.Method = "GET";
             requisicaoWeb.UserAgent = "RequisicaoDONUZ";
